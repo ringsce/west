@@ -23,8 +23,31 @@
 { See the GNU General Public License for more details.                       }
 {                                                                            }
 {----------------------------------------------------------------------------}
-program parser;
+unit parser;
 
+{$mode objfpc}{$H+}
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, OpenGLContext, gl;
+
+
+
+type
+  TForm1 = class(TForm)
+    procedure FormCreate(Sender: TObject);
+    procedure GLboxPaint(Sender: TObject);
+  private
+    GLBox: TOpenGLControl;
+  public
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.lfm}
 var
 
 begin
