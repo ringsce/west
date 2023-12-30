@@ -1,8 +1,8 @@
 ![Screenshot](ekron.png)
 
-#  ringsce editor
-This is an editor written with Lazarus IDE and free Pascal. Where you can use for ringsce repo to build the engine
-ringsCE editor is available too for silicon compatibility mode. For, this build its' a gtk3 editor and interpreter.
+#  ringsCE West
+This is an engine written with Lazarus IDE and free Pascal. Where you can use for ringsce repo to build the engine
+ringsCE editor is available too for silicon compatibility mode. For, this build its a gtk3 editor and interpreter.
 We are coding a vm and interpreter for editor, macros and gaming script. For older versions like intel os'es we must use freePascal instead.
 For silicon compatibility mode we need to use gtk3 editor and gtk3 framework from brew.
 

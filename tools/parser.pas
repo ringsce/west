@@ -28,6 +28,9 @@ program parser;
 var
 
 begin
+end;
+
+begin
   
 
-end;
+end.
