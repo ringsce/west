@@ -20,3 +20,5 @@ Not Fully converted, compiles, starts, almost perfect.
 Not Fully converted, compiles, starts, almost perfect.
 
 Ekron Engine being converted for Lazarus IDE.
+
+Main focus is on the binary engine not the library itself.
