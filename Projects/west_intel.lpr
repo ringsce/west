@@ -159,6 +159,8 @@ begin
     CommandLine := CommandLine + ' ' + ParamStr(i) ;
   CommandLine := Trim(CommandLine);
   {$IFDEF COMPILER6_UP}{$WARN SYMBOL_PLATFORM OFF}{$WARN SYMBOL_DEPRECATED OFF}{$ENDIF}
+  {$IFDEF COMPILER7_UP}{$WARN SYMBOL_PLATFORM OFF}{$WARN SYMBOL_DEPRECATED OFF}{$ENDIF}
+
 
   {$IFDEF WIN32}
   WinMain( hInstance, hPrevInst, PChar(CommandLine), CmdShow );
