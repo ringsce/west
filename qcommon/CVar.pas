@@ -42,8 +42,6 @@
 
 unit CVar;
 
-{$MODE Delphi}
-
 interface
 
 uses
@@ -169,7 +167,7 @@ var
 implementation
 
 uses
-  //Cmd,
+  cmd,
   Common,
   Files,
   CPas;

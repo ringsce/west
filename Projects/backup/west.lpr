@@ -152,7 +152,7 @@ uses
   CPas        in '../qcommon/CPas.pas',
   cmd         in '../qcommon/cmd.pas',
   Common      in '../qcommon/Common.pas',
-  CVar        in '../qcommon/CVar.pas',
+  //CVar        in '../qcommon/CVar.pas',
   Files       in '../qcommon/Files.pas',
   CModel      in '../qcommon/CModel.pas',
   MD4         in '../qcommon/MD4.pas',

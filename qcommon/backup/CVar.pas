@@ -51,7 +51,7 @@ uses
   Windows,
   {$ENDIF}
   SysUtils,
-  Q_Shared;
+  Q_Shared in '../qcommon/Q_Shared.pas';
 
 (*
 ==========================================================
@@ -169,7 +169,7 @@ var
 implementation
 
 uses
-  Cmd,
+  //Cmd,
   Common,
   Files,
   CPas;
