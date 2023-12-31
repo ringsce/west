@@ -167,7 +167,7 @@ var
 implementation
 
 uses
-  cmd,
+  Cmd,
   Common,
   Files,
   CPas;

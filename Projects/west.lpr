@@ -1,6 +1,6 @@
 program west;
 
-{$mode objfpc}{$H+}
+{$mode objfpc}{$H+}{$J--}
 
 uses
   SysUtils,
@@ -209,7 +209,13 @@ uses
 {$INCLUDE ..\Jedi.inc}
 {$ELSE}
 {$INCLUDE ../Jedi.inc}
+{$IFDEF WIN64}
+{$INCLUDE ..\Jedi.inc}
+{$ELSE}
+{$INCLUDE ../Jedi.inc}
 {$ENDIF}
+{$ENDIF}
+
 
 
 var

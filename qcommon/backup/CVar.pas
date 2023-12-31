@@ -42,8 +42,6 @@
 
 unit CVar;
 
-{$MODE Delphi}
-
 interface
 
 uses
@@ -51,7 +49,7 @@ uses
   Windows,
   {$ENDIF}
   SysUtils,
-  Q_Shared in '../qcommon/Q_Shared.pas';
+  Q_Shared;
 
 (*
 ==========================================================
@@ -169,7 +167,7 @@ var
 implementation
 
 uses
-  //Cmd,
+  cmd,
   Common,
   Files,
   CPas;

@@ -7,7 +7,6 @@
       <Unit>
         <Filename Value="west.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <TopLine Value="181"/>
         <CursorPos X="3" Y="216"/>
         <UsageCount Value="24"/>
@@ -41,16 +40,21 @@
       <Unit>
         <Filename Value="../qcommon/Common.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="473"/>
-        <CursorPos X="5" Y="491"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="465"/>
+        <CursorPos X="74" Y="500"/>
         <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/CVar.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="24"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="142"/>
+        <CursorPos X="4" Y="170"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -97,8 +101,11 @@
       <Unit>
         <Filename Value="../game/q_shared.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="28" Y="49"/>
         <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../game/m_flash.pas"/>
@@ -231,11 +238,12 @@
       <Unit>
         <Filename Value="../client/snd_dma.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="101"/>
+        <CursorPos X="3" Y="129"/>
         <UsageCount Value="24"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -464,18 +472,8 @@
         <UsageCount Value="24"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
-      <Unit>
-        <Filename Value="../qcommon/CVar.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="34"/>
-        <CursorPos X="3" Y="52"/>
-        <UsageCount Value="21"/>
-        <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="3">
+    <JumpHistory HistoryIndex="7">
       <Position>
         <Filename Value="west.lpr"/>
         <Caret Column="13"/>
@@ -491,6 +489,22 @@
       <Position>
         <Filename Value="west.lpr"/>
         <Caret Line="155" Column="5" TopLine="124"/>
+      </Position>
+      <Position>
+        <Filename Value="west.lpr"/>
+        <Caret Line="216" Column="3" TopLine="181"/>
+      </Position>
+      <Position>
+        <Filename Value="../game/q_shared.pas"/>
+        <Caret Line="49" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="../qcommon/CVar.pas"/>
+        <Caret Line="170" Column="4" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="../qcommon/Common.pas"/>
+        <Caret Line="500" Column="74" TopLine="465"/>
       </Position>
     </JumpHistory>
     <RunParams>

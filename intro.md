@@ -12,5 +12,3 @@ This software will be distributed as a game open source software.
 # Reasons to use this software.
 The reasons to use this software are huge. It will be able to create a lot of different worlds. Now it will be able to
 create FPS games, then you can build RPG.
-
-
