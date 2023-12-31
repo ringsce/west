@@ -230,10 +230,6 @@
         <Filename Value="../game/game_add.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
-      <Unit>
-        <Filename Value="../qcommon/CVar.pas"/>
-        <IsPartOfProject Value="True"/>
-      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

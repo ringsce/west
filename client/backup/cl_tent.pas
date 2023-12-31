@@ -24,19 +24,35 @@
 { See the GNU General Public License for more details.                       }
 {                                                                            }
 {----------------------------------------------------------------------------}
+{ Copyright (C) 2023-2024 Kreatyve Designs, Inc.                                  }
+{                                                                            }
+{ This program is free software; you can redistribute it and/or              }
+{ modify it under the terms of the GNU General Public License                }
+{ as published by the Free Software Foundation; either version 2             }
+{ of the License, or (at your option) any later version.                     }
+{                                                                            }
+{ This program is distributed in the hope that it will be useful,            }
+{ but WITHOUT ANY WARRANTY; without even the implied warranty of             }
+{ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                       }
+{                                                                            }
+{ See the GNU General Public License for more details.                       }
+{                                                                            }
+{----------------------------------------------------------------------------}
+
 // cl_tent.c -- client side temporary entities
 unit cl_tent;
 
 interface
 
 uses
+  Generics.Collections,
   client,
   ref,
   {$IFDEF WIN32}
   Windows,
   vid_dll,
   {$ELSE}
-  vid_so,
+  //vid_so,
   {$ENDIF}
   Cpas,
   Math,
@@ -61,7 +77,7 @@ type
   end;
 
 const
-  MAX_EXPLOSIONS = 32;
+  MAX_EXPLOSIONS = 128;
 
 var
   cl_explosions: array[0..MAX_EXPLOSIONS - 1] of explosion_t;
@@ -197,8 +213,21 @@ CL_RegisterTEntModels
 }
 
 procedure CL_RegisterTEntModels;
-begin
-  cl_mod_explode := re.RegisterModel('models/objects/explode/tris.md2');
+var
+  {
+=========
+Fixing re
+=========
+}
+
+  //re:bool;
+
+//begin
+{
+=========
+Fixing re
+=========
+cl_mod_explode := re.RegisterModel('models/objects/explode/tris.md2');
   cl_mod_smoke := re.RegisterModel('models/objects/smoke/tris.md2');
   cl_mod_flash := re.RegisterModel('models/objects/flash/tris.md2');
   cl_mod_parasite_segment := re.RegisterModel('models/monsters/parasite/segment/tris.md2');
@@ -229,38 +258,43 @@ begin
   cl_mod_lightning := re.RegisterModel('models/proj/lightning/tris.md2');
   cl_mod_heatbeam := re.RegisterModel('models/proj/beam/tris.md2');
   cl_mod_monster_heatbeam := re.RegisterModel('models/proj/widowbeam/tris.md2');
-  //ROGUE
-end;
+  //ROGUE }
+//end;
 
 {
 =========
 CL_ClearTEnts
 =========
+ Fixing ClearTents
+//procedure CL_ClearTEnts;
 }
+  {
+  =========
+  CL_ClearTEnts
+  =========
 
-procedure CL_ClearTEnts;
 begin
   // it's possible to eliminate the def and use only the memset instruction ..by FAB
   {$IFDEF WIN32}
-  ZeroMemory(@cl_beams, sizeof(cl_beams));
-  ZeroMemory(@cl_explosions, sizeof(cl_explosions));
-  ZeroMemory(@cl_lasers, sizeof(cl_lasers));
-  {$ELSE}
-  memset (@cl_beams, 0, sizeof(cl_beams));
-  memset (@cl_explosions, 0, sizeof(cl_explosions));
-  memset (@cl_lasers, 0, sizeof(cl_lasers));
-  {$ENDIF}
+  //ZeroMemory(@cl_beams, sizeof(cl_beams));
+  //ZeroMemory(@cl_explosions, sizeof(cl_explosions));
+  //ZeroMemory(@cl_lasers, sizeof(cl_lasers));
+  //{$ELSE}
+  //memset (@cl_beams, 0, sizeof(cl_beams));
+  //memset (@cl_explosions, 0, sizeof(cl_explosions));
+  //memset (@cl_lasers, 0, sizeof(cl_lasers));
+  //{$ENDIF}
 
   //ROGUE
   {$IFDEF WIN32}
-  ZeroMemory(@cl_playerbeams, sizeof(cl_playerbeams));
-  ZeroMemory(@cl_sustains, sizeof(cl_sustains));
+  //ZeroMemory(@cl_playerbeams, sizeof(cl_playerbeams));
+  //ZeroMemory(@cl_sustains, sizeof(cl_sustains));
   {$ELSE}
-  memset (@cl_playerbeams, 0, sizeof(cl_playerbeams));
-  memset (@cl_sustains, 0, sizeof(cl_sustains));
+  //memset (@cl_playerbeams, 0, sizeof(cl_playerbeams));
+  //memset (@cl_sustains, 0, sizeof(cl_sustains));
   {$ENDIF}
   //ROGUE}
-end;
+//end;
 
 {
 =========
@@ -268,38 +302,37 @@ CL_AllocExplosion
 =========
 }
 
-function CL_AllocExplosion: Explosion_p;
-var
-  i, time, index: Integer;
-begin
-  for i := 0 to MAX_EXPLOSIONS - 1 do
-  begin
-    if (cl_explosions[i].type_ = ex_free) then
-    begin
-      FillChar(cl_explosions[i], SizeOf(cl_explosions[i]), 0);
-      Result := @cl_explosions[i];
-      Exit;
-    end;
-  end;
+//function CL_AllocExplosion: Explosion_p;
+//var
+//  i, time, index: Integer;
+//begin
+//  for i := 0 to MAX_EXPLOSIONS - 1 do
+//  begin
+//    if (cl_explosions[i].type_ = ex_free) then
+ //   begin
+//      FillChar(cl_explosions[i], SizeOf(cl_explosions[i]), 0);
+//      Result := @cl_explosions[i];
+//      Exit;
+//    end;
+//  end;
   // find the oldest explosion
-  time := cl.time;
-  index := 0;
+//  time := cl.time;
+//  index := 0;
 
-  for i := 0 to MAX_EXPLOSIONS - 1 do
-    if (cl_explosions[i].start < time) then
-    begin
-      time := Round(cl_explosions[i].start);
-      index := i;
-    end;
-  FillChar(cl_explosions[index], SizeOf(cl_explosions[index]), 0);
-  Result := @cl_explosions[index];
-end;
+//  for i := 0 to MAX_EXPLOSIONS - 1 do
+//    if (cl_explosions[i].start < time) then
+ //   begin
+//      time := Round(cl_explosions[i].start);
+//      index := i;
+//    end;
+//  FillChar(cl_explosions[index], SizeOf(cl_explosions[index]), 0);
+//  Result := @cl_explosions[index];
+//end;
 
 {
 =========
 CL_SmokeAndFlash
 =========
-}
 
 procedure CL_SmokeAndFlash(const Origin: vec3_t);
 var
@@ -321,12 +354,12 @@ begin
   ex^.start := cl.frame.servertime - 100;
   ex^.ent.model := cl_mod_flash;
 end;
+  }
 
 {
 =========
 CL_ParseParticles
 =========
-}
 
 procedure CL_ParseParticles;
 var
@@ -341,6 +374,7 @@ begin
 
   CL_ParticleEffect(pos, dir, color, count);
 end;
+}
 
 {
 =========
