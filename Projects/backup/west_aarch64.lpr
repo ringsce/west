@@ -1,4 +1,4 @@
-program west_aarch64;
+program west;
 
 {$mode objfpc}{$H+}{$J--}
 
