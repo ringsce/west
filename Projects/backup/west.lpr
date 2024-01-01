@@ -180,7 +180,7 @@ uses
   cl_view     in '../client/cl_view.pas',
   cl_parse    in '../client/cl_parse.pas',
   Qmenu       in '../client/Qmenu.pas',
-  //cl_tent     in '../client/cl_tent.pas',
+  cl_tent     in '../client/cl_tent.pas',
   cl_fx       in '../client/cl_fx.pas',
   cl_newfx    in '../client/cl_newfx.pas',
   snd_mix     in '../client/snd_mix.pas',

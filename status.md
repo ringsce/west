@@ -22,3 +22,5 @@ Not Fully converted, compiles, starts, almost perfect.
 Ekron Engine being converted for Lazarus IDE.
 
 Main focus is on the binary engine not the library itself yet.
+
+Do not touch on dpr file from Delphi 6+, it's not working, finding a fix. 
