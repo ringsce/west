@@ -24,3 +24,12 @@ Ekron Engine being converted for Lazarus IDE.
 Main focus is on the binary engine not the library itself yet.
 
 Do not touch on dpr file from Delphi 6+, it's not working, finding a fix. 
+
+# First Corrections and Correlations
+
+For M1+ you must use west_aarch64.lpr, for amd64 you should use west.lpr
+
+For linux you must choose based on your distro, we offer a debian and fedora based projects.
+
+More info:
+https://ringscejs.gleentech.com
