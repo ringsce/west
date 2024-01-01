@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/fpc" Date="1621181457"/>
+  <Params Value=" -MDelphi -Scghi -O1 -gw -gl -k-framework -kCocoa -l -vewnhibq -Fi/Users/pedro/Projects/west/jedi -Fi/Users/pedro/Projects/west/qcommon -Fi/Users/pedro/Projects/west/game -Fi/Users/pedro/Projects/west/client -Fi/Users/pedro/Projects/west/server -Fi/Users/pedro/Projects/west/Projects/build -Fl/Users/pedro/Projects/west/jedi -Fo/Users/pedro/Projects/west/jedi -Fu/Users/pedro/Projects/west/jedi -Fu/Users/pedro/Projects/west/qcommon -Fu/Users/pedro/Projects/west/game -Fu/Users/pedro/Projects/west/client -Fu/Users/pedro/Projects/west/server -Fu/Users/pedro/.lazarus/lib/units/x86_64-darwin/cocoa -Fu/Users/pedro/.lazarus/lib/LCLBase/units/x86_64-darwin -Fu/Users/pedro/.lazarus/lib/freetypelaz/lib/x86_64-darwin -Fu/Users/pedro/.lazarus/lib/LazUtils/lib/x86_64-darwin -Fu/Users/pedro/.lazarus/lib/units/x86_64-darwin -Fu/Users/pedro/Projects/west/Projects/ -FE/Users/pedro/Projects/west/Projects/build/ -o/Users/pedro/Projects/west/Projects/build/west_aarch64 -dLCL -dLCLcocoa -dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL west_aarch64.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

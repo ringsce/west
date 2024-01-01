@@ -9,7 +9,7 @@
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <TopLine Value="215"/>
-        <CursorPos X="20" Y="247"/>
+        <CursorPos X="6" Y="225"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
@@ -22,6 +22,7 @@
         <TopLine Value="513"/>
         <CursorPos X="5" Y="531"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/crc.pas"/>
@@ -30,6 +31,7 @@
         <TopLine Value="91"/>
         <CursorPos X="7" Y="121"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/CPas.pas"/>
@@ -38,15 +40,17 @@
         <TopLine Value="512"/>
         <CursorPos X="7" Y="530"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/Common.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="3"/>
         <TopLine Value="465"/>
-        <CursorPos X="74" Y="500"/>
+        <CursorPos X="11" Y="500"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/CVar.pas"/>
@@ -56,6 +60,7 @@
         <CursorPos X="4" Y="170"/>
         <UsageCount Value="55"/>
         <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/Files.pas"/>
@@ -64,12 +69,14 @@
         <TopLine Value="1037"/>
         <CursorPos X="5" Y="1057"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/CModel.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/md4.pas"/>
@@ -77,12 +84,14 @@
         <UnitName Value="MD4"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/PMoveUnit.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/net_chan.pas"/>
@@ -91,26 +100,30 @@
         <TopLine Value="407"/>
         <CursorPos X="5" Y="436"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/Delphi_cdecl_printf.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../game/q_shared.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="28" Y="49"/>
+        <CursorPos Y="49"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../game/m_flash.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../game/GameUnit.pas"/>
@@ -129,6 +142,7 @@
         <TopLine Value="134"/>
         <CursorPos X="5" Y="152"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../client/Client.pas"/>
@@ -157,6 +171,7 @@
         <TopLine Value="113"/>
         <CursorPos X="5" Y="131"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../client/Sound_h.pas"/>
@@ -175,6 +190,7 @@
         <TopLine Value="66"/>
         <CursorPos X="5" Y="84"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../client/cl_scrn.pas"/>
@@ -183,6 +199,7 @@
         <TopLine Value="93"/>
         <CursorPos X="5" Y="111"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../client/vid_h.pas"/>
@@ -242,6 +259,7 @@
         <CursorPos X="3" Y="129"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../client/cl_ents.pas"/>
@@ -270,6 +288,7 @@
         <TopLine Value="82"/>
         <CursorPos X="5" Y="100"/>
         <UsageCount Value="58"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../client/cl_parse.pas"/>
@@ -296,9 +315,10 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="5"/>
         <TopLine Value="418"/>
-        <CursorPos X="50" Y="418"/>
+        <CursorPos Y="435"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../client/cl_fx.pas"/>
@@ -478,7 +498,7 @@
         <UsageCount Value="7"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="21">
+    <JumpHistory HistoryIndex="22">
       <Position>
         <Filename Value="../game/q_shared.pas"/>
         <Caret Line="49" Column="28"/>
@@ -566,6 +586,10 @@
       <Position>
         <Filename Value="../client/cl_tent.pas"/>
         <Caret Line="435" TopLine="418"/>
+      </Position>
+      <Position>
+        <Filename Value="west_aarch64.lpr"/>
+        <Caret Line="225" Column="6" TopLine="215"/>
       </Position>
     </JumpHistory>
     <RunParams>
