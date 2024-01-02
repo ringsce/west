@@ -7,7 +7,6 @@
       <Unit>
         <Filename Value="west_aarch64.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <TopLine Value="215"/>
         <CursorPos X="6" Y="225"/>
         <UsageCount Value="58"/>
@@ -313,6 +312,7 @@
       <Unit>
         <Filename Value="../client/cl_tent.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="5"/>
         <TopLine Value="418"/>
         <CursorPos Y="435"/>

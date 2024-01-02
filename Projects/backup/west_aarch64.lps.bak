@@ -7,12 +7,10 @@
       <Unit>
         <Filename Value="west_aarch64.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <TopLine Value="215"/>
         <CursorPos X="6" Y="225"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/qfiles.pas"/>
@@ -50,7 +48,6 @@
         <CursorPos X="11" Y="500"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/CVar.pas"/>
@@ -60,7 +57,6 @@
         <CursorPos X="4" Y="170"/>
         <UsageCount Value="55"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/Files.pas"/>
@@ -116,7 +112,6 @@
         <CursorPos Y="49"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../game/m_flash.pas"/>
@@ -259,7 +254,6 @@
         <CursorPos X="3" Y="129"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../client/cl_ents.pas"/>
@@ -313,12 +307,12 @@
       <Unit>
         <Filename Value="../client/cl_tent.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="5"/>
         <TopLine Value="418"/>
         <CursorPos Y="435"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../client/cl_fx.pas"/>
@@ -589,7 +583,7 @@
       </Position>
       <Position>
         <Filename Value="west_aarch64.lpr"/>
-        <Caret Line="225" Column="30" TopLine="215"/>
+        <Caret Line="225" Column="6" TopLine="215"/>
       </Position>
     </JumpHistory>
     <RunParams>
