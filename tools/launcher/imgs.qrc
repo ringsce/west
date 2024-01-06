@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>ringsce.png</file>
+        <file>ringsceICO.png</file>
+        <file>iol.png</file>
+    </qresource>
+</RCC>

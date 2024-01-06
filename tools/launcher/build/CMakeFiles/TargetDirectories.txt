@@ -1,0 +1,9 @@
+/Users/pedro/Projects/launcher/build/CMakeFiles/Launcher.dir
+/Users/pedro/Projects/launcher/build/CMakeFiles/edit_cache.dir
+/Users/pedro/Projects/launcher/build/CMakeFiles/rebuild_cache.dir
+/Users/pedro/Projects/launcher/build/CMakeFiles/list_install_components.dir
+/Users/pedro/Projects/launcher/build/CMakeFiles/install.dir
+/Users/pedro/Projects/launcher/build/CMakeFiles/install/local.dir
+/Users/pedro/Projects/launcher/build/CMakeFiles/install/strip.dir
+/Users/pedro/Projects/launcher/build/CMakeFiles/Launcher_autogen_timestamp_deps.dir
+/Users/pedro/Projects/launcher/build/CMakeFiles/Launcher_autogen.dir

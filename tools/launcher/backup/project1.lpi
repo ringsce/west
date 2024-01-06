@@ -13,11 +13,6 @@
       </XPManifest>
       <Icon Value="0"/>
     </General>
-    <VersionInfo>
-      <UseVersionInfo Value="True"/>
-      <AutoIncrementBuild Value="True"/>
-      <Attributes pvaDebug="True" pvaPreRelease="True" pvaPatched="True" pvaPrivateBuild="True" pvaSpecialBuild="True"/>
-    </VersionInfo>
     <BuildModes>
       <Item Name="Default" Default="True"/>
     </BuildModes>
@@ -42,7 +37,6 @@
         <Filename Value="launcher.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
-        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
     </Units>
@@ -50,7 +44,7 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="launcher"/>
+      <Filename Value="project1"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
@@ -63,9 +57,6 @@
         </Win32>
       </Options>
     </Linking>
-    <Other>
-      <CustomOptions Value="-dDEBUG"/>
-    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions>
