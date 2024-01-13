@@ -86,7 +86,7 @@
 
 library gamex86;
 
-{$MODE Delphi}
+{$MODE objfpc} {$H+}
 
 
 

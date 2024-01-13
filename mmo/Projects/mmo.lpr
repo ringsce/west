@@ -1,0 +1,5 @@
+program mmo;
+
+begin
+end.
+

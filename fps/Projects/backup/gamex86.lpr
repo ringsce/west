@@ -86,6 +86,8 @@
 
 library gamex86;
 
+{$MODE objfpc}
+
 
 
 uses

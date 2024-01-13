@@ -43,8 +43,9 @@
       <Unit>
         <Filename Value="../qcommon/Common.pas"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="465"/>
-        <CursorPos X="11" Y="500"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="347"/>
+        <CursorPos X="28" Y="347"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
       </Unit>
@@ -257,7 +258,6 @@
         <EditorIndex Value="5"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../client/cl_pred.pas"/>
@@ -301,13 +301,10 @@
       <Unit>
         <Filename Value="../client/cl_tent.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="418"/>
-        <CursorPos Y="435"/>
+        <CursorPos X="48"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../client/cl_fx.pas"/>
@@ -743,7 +740,6 @@
         <EditorIndex Value="1"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../null/sys_null.pas"/>
@@ -752,7 +748,6 @@
         <CursorPos X="123" Y="59"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../ctf/g_target.pas"/>
@@ -761,7 +756,6 @@
         <CursorPos X="9" Y="78"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="4">

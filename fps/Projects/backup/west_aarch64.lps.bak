@@ -301,6 +301,7 @@
       <Unit>
         <Filename Value="../client/cl_tent.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <TopLine Value="418"/>
         <CursorPos Y="435"/>
@@ -755,7 +756,6 @@
       </Unit>
       <Unit>
         <Filename Value="../ctf/g_target.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
         <TopLine Value="58"/>
         <CursorPos X="9" Y="78"/>
@@ -764,7 +764,7 @@
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="3">
+    <JumpHistory HistoryIndex="4">
       <Position>
         <Filename Value="../qcommon/Common.pas"/>
         <Caret Line="500" Column="74" TopLine="465"/>
@@ -777,6 +777,10 @@
       </Position>
       <Position>
         <Filename Value="../ctf/g_target.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="../ctf/g_target.pas"/>
+        <Caret Line="78" Column="9" TopLine="58"/>
       </Position>
     </JumpHistory>
     <RunParams>
