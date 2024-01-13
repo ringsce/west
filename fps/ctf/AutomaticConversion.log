@@ -1,0 +1,6 @@
+g_target.pas Note: Changed encoding from ISO-8859-1 to UTF-8
+g_target.pas Note: Repairing include files : ../Jedi.inc
+g_target.pas(72,15) Note: Added MODE Delphi syntax modifier after unit name.
+g_target.pas(234,28) Note: Replaced call Ptr(0) with Pointer(0) { *Converted from Ptr* }
+ : 
+ Fatal: Conversion Aborted.

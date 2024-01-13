@@ -1,0 +1,6 @@
+vid_null.pas(48,3) Note: Fixed character case of unit "client" to "Client".
+vid_null.pas(43,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+sys_null.pas Note: Replaced unit "Windows" with "LCLIntf, LCLType, LMessages" in uses section.
+sys_null.pas(40,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : Conversion Ready.

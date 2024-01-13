@@ -1,0 +1,3 @@
+cl_ents.pas(45,3) Note: Fixed character case of unit "client" to "Client".
+cl_ents.pas(40,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : Conversion Ready.

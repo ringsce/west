@@ -1,0 +1,118 @@
+m_brain.pas Note: Repairing include files : m_brain.inc
+m_brain.pas(67,16) Note: Fixed character case of unit "gameUnit" to "GameUnit".
+m_brain.pas(57,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_spawn.pas(39,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_target.pas Note: Repairing include files : ../Jedi.inc
+g_target.pas(33,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+p_hud.pas(41,12) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_weapon.pas(39,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_ai.pas(68,3) Note: Fixed character case of unit "Cpas" to "CPas".
+g_ai.pas(28,11) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+p_weapon.pas(49,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_misc.pas(38,13) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_gunner.pas(44,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+game_add.pas(43,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_items.pas(1214,3) Note: Fixed character case of unit "Cpas" to "CPas".
+g_items.pas(38,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_boss3.pas(44,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_hover.pas Note: Repairing include files : m_hover.inc
+m_hover.pas(23,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_chase.pas(45,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_phys.pas(33,13) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+p_view.pas(64,3) Note: Fixed character case of unit "gameunit" to "GameUnit".
+p_view.pas(45,13) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_actor.pas Note: Repairing include files : m_actor.inc
+m_actor.pas(40,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_float.pas Note: Repairing include files : ../Jedi.inc; m_float.inc
+m_float.pas(65,16) Note: Fixed character case of unit "gameunit" to "GameUnit".
+m_float.pas(55,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_tank.pas Note: Repairing include files : m_tank.inc
+m_tank.pas(66,16) Note: Fixed character case of unit "gameunit" to "GameUnit".
+m_tank.pas(56,13) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+p_trail.pas(42,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_boss31.pas Note: Repairing include files : m_boss31.inc
+m_boss31.pas(44,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_main.pas(57,13) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_insane.pas(44,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_local.pas(39,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_monster.pas(124,3) Note: Fixed character case of unit "gameunit" to "GameUnit".
+g_monster.pas(131,3) Note: Fixed character case of unit "Cpas" to "CPas".
+g_monster.pas(65,16) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_berserk.pas(45,16) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_mutant.pas(39,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_player.pas(39,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_chick.pas Note: Repairing include files : m_chick.inc
+m_chick.pas(65,16) Note: Fixed character case of unit "gameunit" to "GameUnit".
+m_chick.pas(55,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_boss2.pas Note: Repairing include files : m_boss2.inc
+m_boss2.pas(44,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_svcmds.pas Note: Repairing include files : ../Jedi.inc
+g_svcmds.pas(43,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_flyer.pas Note: Repairing include files : m_flyer.inc
+m_flyer.pas(67,16) Note: Fixed character case of unit "gameunit" to "GameUnit".
+m_flyer.pas(57,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_turret.pas(40,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_move.pas(37,13) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_boss32.pas Note: Repairing include files : m_boss32.inc
+m_boss32.pas(44,15) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_medic.pas Note: Repairing include files : m_medic.inc
+m_medic.pas(37,14) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_cmds.pas(50,3) Note: Fixed character case of unit "gameUnit" to "GameUnit".
+g_cmds.pas(27,13) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_func.pas(29,13) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_soldier.pas(44,16) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_trigger.pas(68,3) Note: Fixed character case of unit "gameunit" to "GameUnit".
+g_trigger.pas(35,16) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_supertank.pas Note: Repairing include files : m_supertank.inc
+m_supertank.pas(66,16) Note: Fixed character case of unit "gameunit" to "GameUnit".
+m_supertank.pas(54,18) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_parasite.pas(43,17) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+m_gladiator.pas(44,18) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+q_shared_add.pas(44,19) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+g_local_add.pas(43,18) Note: Added MODE Delphi syntax modifier after unit name.
+ : 
+ Fatal: Conversion Aborted.

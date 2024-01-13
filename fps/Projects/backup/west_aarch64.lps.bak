@@ -7,10 +7,10 @@
       <Unit>
         <Filename Value="west_aarch64.lpr"/>
         <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="215"/>
         <CursorPos X="6" Y="225"/>
         <UsageCount Value="58"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/qfiles.pas"/>
@@ -43,7 +43,6 @@
       <Unit>
         <Filename Value="../qcommon/Common.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
         <TopLine Value="465"/>
         <CursorPos X="11" Y="500"/>
         <UsageCount Value="58"/>
@@ -52,11 +51,10 @@
       <Unit>
         <Filename Value="../qcommon/CVar.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="142"/>
         <CursorPos X="4" Y="170"/>
         <UsageCount Value="55"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../qcommon/Files.pas"/>
@@ -108,10 +106,9 @@
       <Unit>
         <Filename Value="../game/q_shared.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos Y="49"/>
         <UsageCount Value="58"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../game/m_flash.pas"/>
@@ -249,20 +246,17 @@
       <Unit>
         <Filename Value="../client/snd_dma.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="101"/>
         <CursorPos X="3" Y="129"/>
         <UsageCount Value="58"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../client/cl_ents.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
+        <EditorIndex Value="5"/>
         <UsageCount Value="58"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -307,12 +301,12 @@
       <Unit>
         <Filename Value="../client/cl_tent.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="418"/>
         <CursorPos Y="435"/>
         <UsageCount Value="58"/>
         <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="../client/cl_fx.pas"/>
@@ -468,9 +462,6 @@
         <Filename Value="../game/q_shared_add.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
         <UsageCount Value="58"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
@@ -478,9 +469,6 @@
         <Filename Value="../game/game_add.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
         <UsageCount Value="58"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
@@ -491,99 +479,304 @@
         <CursorPos X="3" Y="40"/>
         <UsageCount Value="7"/>
       </Unit>
+      <Unit>
+        <Filename Value="../game/m_brain.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_spawn.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_target.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/p_hud.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_weapon.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_ai.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/p_weapon.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_misc.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_gunner.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_items.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_boss3.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_hover.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_chase.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_phys.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/p_view.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_actor.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_float.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_tank.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/p_trail.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_boss31.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_main.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_insane.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_local.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_monster.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_berserk.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_mutant.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_player.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_chick.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_boss2.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_svcmds.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_flyer.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_turret.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_move.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_boss32.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_medic.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_cmds.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_func.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_soldier.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_trigger.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_supertank.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_parasite.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/m_gladiator.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../game/g_local_add.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../null/vid_null.pas"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../null/sys_null.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="31"/>
+        <CursorPos X="123" Y="59"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../ctf/g_target.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="58"/>
+        <CursorPos X="9" Y="78"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="22">
-      <Position>
-        <Filename Value="../game/q_shared.pas"/>
-        <Caret Line="49" Column="28"/>
-      </Position>
-      <Position>
-        <Filename Value="../qcommon/CVar.pas"/>
-        <Caret Line="170" Column="4" TopLine="142"/>
-      </Position>
+    <JumpHistory HistoryIndex="3">
       <Position>
         <Filename Value="../qcommon/Common.pas"/>
         <Caret Line="500" Column="74" TopLine="465"/>
       </Position>
       <Position>
-        <Filename Value="../client/snd_dma.pas"/>
-        <Caret Line="129" Column="3" TopLine="101"/>
+        <Filename Value="../null/sys_null.pas"/>
       </Position>
       <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="257" Column="42" TopLine="232"/>
+        <Filename Value="../client/cl_ents.pas"/>
       </Position>
       <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="33" Column="24" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="202" Column="10" TopLine="187"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="211" TopLine="204"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="247" Column="3" TopLine="216"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="253" Column="14" TopLine="251"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="264" Column="5" TopLine="247"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="276" Column="5" TopLine="248"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="279" Column="5" TopLine="261"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="54" Column="48" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="330" Column="3" TopLine="301"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="1800" Column="26" TopLine="1787"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="358" TopLine="330"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="377" TopLine="348"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="434" TopLine="403"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="435" TopLine="418"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="427" Column="2" TopLine="419"/>
-      </Position>
-      <Position>
-        <Filename Value="../client/cl_tent.pas"/>
-        <Caret Line="435" TopLine="418"/>
-      </Position>
-      <Position>
-        <Filename Value="west_aarch64.lpr"/>
-        <Caret Line="225" Column="6" TopLine="215"/>
+        <Filename Value="../ctf/g_target.pas"/>
       </Position>
     </JumpHistory>
     <RunParams>
