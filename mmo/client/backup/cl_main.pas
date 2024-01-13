@@ -1,6 +1,6 @@
 {----------------------------------------------------------------------------}
 {                                                                            }
-{ File(s): mmo.lpi & mmo.lpr                                                        }
+{ File(s): common.pas                                                        }
 { Content: mmo\Client - builds an intended movement command to send to the server }
 {                                                                            }
 { Initial conversion by : Pedro Dias Vicente - pdvicente@gleentech.com                           }
@@ -30,10 +30,17 @@
 {----------------------------------------------------------------------------}
 
 {.$DEFINE TODO}
-program mmo;
 
-uses cl_main;
+unit cl_main;
 
-begin
+{$mode ObjFPC}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+implementation
+
 end.
 
