@@ -32,7 +32,7 @@
 {.$DEFINE TODO}
 program mmo;
 
-uses cl_main;
+uses cl_main, glfw;
 
 begin
 end.

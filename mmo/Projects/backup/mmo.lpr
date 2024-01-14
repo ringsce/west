@@ -32,6 +32,8 @@
 {.$DEFINE TODO}
 program mmo;
 
+uses cl_main;
+
 begin
 end.
 
