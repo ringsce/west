@@ -1,0 +1,3 @@
+[submodule "Site/ringsce-game"]
+	path = Site/ringsce-game
+	url = https://github.com/ringsce/ringsce-ui.git
