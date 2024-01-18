@@ -4,3 +4,6 @@
 [submodule "ringsce-editor"]
 	path = ringsce-editor
 	url = https://github.com/ringsce/ringsce-editor.git
+[submodule "morpheus"]
+	path = morpheus
+	url = https://github.com/ringsce/morpheus.git
