@@ -7,3 +7,6 @@
 [submodule "morpheus"]
 	path = morpheus
 	url = https://github.com/ringsce/morpheus.git
+[submodule "tools/movement-desktop"]
+	path = tools/movement-desktop
+	url = https://github.com/ringsce/movement-desktop.git
