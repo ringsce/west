@@ -10,3 +10,6 @@
 [submodule "tools/movement-desktop"]
 	path = tools/movement-desktop
 	url = https://github.com/ringsce/movement-desktop.git
+[submodule "docs.gleentech.com"]
+	path = docs.gleentech.com
+	url = https://github.com/ringsce/docs.gleentech.com.git

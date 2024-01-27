@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ringsce/ringsce-game"
+		}
+	],
+	"settings": {}
+}
