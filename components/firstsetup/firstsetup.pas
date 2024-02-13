@@ -10,7 +10,8 @@ uses
 
 const
   MAX_CLIENTS = 1024;
-  INI_FILE_PATH = 'server_config.ini';
+  SERVER_DIR = '$HOME/.server'; // Server directory on macOS
+  INI_FILE_PATH = SERVER_DIR + '/server_config.ini';
   RC4_KEY = 'YourRC4Key'; // RC4 encryption key
 
 type
@@ -108,6 +109,10 @@ begin
 end;
 
 begin
+  // Create the server directory if it does not exist
+  if not DirectoryExists(ExpandFileName(SERVER_DIR)) then
+    CreateDir(ExpandFileName(SERVER_DIR));
+
   ServerINI := TIniFile.Create(INI_FILE_PATH);
   try
     ServerSocket := Sockets.Socket(AF_INET, SOCK_STREAM, 0);
