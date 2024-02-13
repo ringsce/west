@@ -7,12 +7,23 @@ set(FPC_PATH "/opt/homebrew/bin/fpc")
 # Set the path to your C++ compiler (e.g., Clang)
 set(CXX_COMPILER "/usr/bin/clang++")
 
+# Find Lua
+find_package(Lua 5.4 REQUIRED)
+
+if (Lua_FOUND)
+    message("Lua found: ${Lua_INCLUDE_DIR}")
+    include_directories(${Lua_INCLUDE_DIR})
+    target_link_libraries(your_target_name ${Lua_LIBRARIES})
+else()
+    message("Lua not found")
+endif()
+
 # Set the path to your Free Pascal source files
 set(FPC_SOURCE_FILES
     components/hud/hud.pas
     components/firstsetup.pas
     components/udp/udp.pas
-    compopnents/window/window.pas
+    components/window/window.pas
     # Add more Pascal source files if needed
 )
 

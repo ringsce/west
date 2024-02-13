@@ -1,79 +1,55 @@
-program HUDWithTabs;
+program LuaHUDExample;
 
 {$mode objfpc}
 
 uses
   SysUtils,
-  glfw3;
+  Lua;
+
+const
+  LuaScriptFileName = 'hud.lua';
 
 var
-  window: PGLFWwindow;
+  L: PLuaState;
 
-procedure key_callback(window: PGLFWwindow; key, scancode, action, mods: Integer); cdecl;
+function LuaPrint(L: PLuaState): Integer; cdecl;
+var
+  NumArgs, I: Integer;
+  Args: TStringList;
 begin
-  if (key = GLFW_KEY_ESCAPE) and (action = GLFW_PRESS) then
-    glfwSetWindowShouldClose(window, GLFW_TRUE);
-end;
-
-procedure window_size_callback(window: PGLFWwindow; width, height: Integer); cdecl;
-begin
-  glViewport(0, 0, width, height);
-end;
-
-procedure initGUI;
-begin
-  // Set up tabs, buttons, labels, etc.
-end;
-
-procedure render;
-begin
-  // Render the current tab
-end;
-
-begin
-  // Initialize GLFW
-  if not glfwInit() then
-  begin
-    WriteLn('Failed to initialize GLFW');
-    Halt;
+  NumArgs := lua_gettop(L);
+  Args := TStringList.Create;
+  try
+    for I := 1 to NumArgs do
+      Args.Add(lua_tostring(L, I));
+    WriteLn(Args.DelimitedText);
+  finally
+    Args.Free;
   end;
+  Result := 0;
+end;
 
-  // Create a windowed mode window and its OpenGL context
-  window := glfwCreateWindow(800, 600, 'HUD with Tabs', nil, nil);
-  if not window then
-  begin
-    WriteLn('Failed to create GLFW window');
-    glfwTerminate;
-    Halt;
+procedure RunLuaScript(const FileName: string);
+begin
+  L := luaL_newstate();
+  luaL_openlibs(L);
+
+  // Register Lua print function
+  lua_register(L, 'print', @LuaPrint);
+
+  if luaL_loadfile(L, PAnsiChar(FileName)) <> 0 then
+    WriteLn('Error loading Lua script: ', lua_tostring(L, -1))
+  else if lua_pcall(L, 0, LUA_MULTRET, 0) <> 0 then
+    WriteLn('Error executing Lua script: ', lua_tostring(L, -1));
+
+  lua_close(L);
+end;
+
+begin
+  try
+    RunLuaScript(LuaScriptFileName);
+  except
+    on E: Exception do
+      WriteLn('Exception: ', E.Message);
   end;
-
-  // Make the window's context current
-  glfwMakeContextCurrent(window);
-
-  // Set key callback
-  glfwSetKeyCallback(window, @key_callback);
-
-  // Set window size callback
-  glfwSetWindowSizeCallback(window, @window_size_callback);
-
-  // Initialize GUI components (e.g., tabs, buttons, labels)
-  initGUI;
-
-  // Loop until the user closes the window
-  while not glfwWindowShouldClose(window) do
-  begin
-    // Render here
-    glClear(GL_COLOR_BUFFER_BIT);
-
-    render;
-
-    // Swap front and back buffers
-    glfwSwapBuffers(window);
-
-    // Poll for and process events
-    glfwPollEvents;
-  end;
-
-  // Terminate GLFW
-  glfwTerminate;
 end.
