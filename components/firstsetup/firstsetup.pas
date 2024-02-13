@@ -6,7 +6,7 @@ uses
   {$IFDEF UNIX}
   cthreads,
   {$ENDIF}
-  Classes, SysUtils, Sockets, IniFiles, RC4;
+  Classes, SysUtils, Sockets, IniFiles, CipherRC4;
 
 const
   MAX_CLIENTS = 1024;
@@ -18,7 +18,7 @@ type
   TClientHandler = class(TThread)
   private
     FClientSocket: TSocket;
-    FRC4: TRC4;
+    FRC4: String;
     function IsSuspiciousRequest(const Request: AnsiString): Boolean;
   public
     constructor Create(ClientSocket: TSocket);
