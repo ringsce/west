@@ -1,4 +1,4 @@
-program LuaHUDExample;
+program hud;
 
 {$mode objfpc}
 

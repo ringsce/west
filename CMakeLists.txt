@@ -1,11 +1,11 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.10)
 project(ringsce)
 
 # Set the path to your Free Pascal compiler
-set(FPC_PATH "/opt/homebrew/bin/fpc")
+#set(FPC_PATH "/opt/homebrew/bin/fpc")
 
 # Set the path to your C++ compiler (e.g., Clang)
-set(CXX_COMPILER "/usr/bin/clang++")
+#set(CXX_COMPILER "/usr/bin/clang++")
 
 # Find Lua
 find_package(Lua 5.4 REQUIRED)
@@ -13,10 +13,42 @@ find_package(Lua 5.4 REQUIRED)
 if (Lua_FOUND)
     message("Lua found: ${Lua_INCLUDE_DIR}")
     include_directories(${Lua_INCLUDE_DIR})
-    target_link_libraries(your_target_name ${Lua_LIBRARIES})
+    #target_link_libraries(ringsce ${Lua_LIBRARIES})
 else()
     message("Lua not found")
 endif()
+
+
+# Detect macos
+if(CMAKE_SYSTEM_PROCESSOR MATCHES "arm64")
+    message("macOS Silicon (Apple M1) detected")
+    # Add specific configurations or settings for macOS Silicon
+    # Set the path to your Free Pascal compiler
+    set(FPC_PATH "/opt/homebrew/bin/fpc")
+
+    # Set the path to your C++ compiler (e.g., Clang)
+    set(CXX_COMPILER "/usr/bin/clang++")
+
+else()
+    message("Intel-based Mac detected")
+    # Add configurations or settings for Intel-based Macs
+endif()
+
+# Set the path to the Swift compiler
+set(SWIFT_COMPILER "/usr/bin/swiftc")
+
+# Swift source file
+set(SWIFT_SOURCE main.swift)
+
+# Add custom target to compile Swift code
+add_custom_target(
+    SwiftTarget
+    COMMAND ${SWIFT_COMPILER} -o ${CMAKE_BINARY_DIR}/main ${CMAKE_SOURCE_DIR}/${SWIFT_SOURCE}
+    DEPENDS ${SWIFT_SOURCE}
+    COMMENT "Compiling Swift code..."
+)
+
+
 
 # Set the path to your Free Pascal source files
 set(FPC_SOURCE_FILES
@@ -33,6 +65,10 @@ set(CXX_SOURCE_FILES
     your_cpp_source_file2.cpp
     # Add more C++ source files if needed
 )
+
+# Add the subdirectory containing the Free Pascal source files
+add_subdirectory(ringsce-editor)
+
 
 # Compile your Free Pascal files
 foreach(SOURCE_FILE ${FPC_SOURCE_FILES})
