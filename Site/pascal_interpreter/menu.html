@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Vue App</title>
+  <!-- Add your CSS stylesheets or links here -->
+  <style>
+    /* Sidebar styles */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 250px;
+      background-color: #333;
+      color: #fff;
+      padding-top: 60px; /* Adjust according to your top navbar height */
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar ul li {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .sidebar ul li:hover {
+      background-color: #444;
+    }
+
+    /* Top navbar styles */
+    .topnav {
+      background-color: #333;
+      color: #fff;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 60px;
+      z-index: 1000;
+    }
+
+    .topnav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 100%;
+    }
+
+    .topnav ul li {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .topnav ul li:hover {
+      background-color: #444;
+    }
+
+    /* Content area */
+    .content {
+      margin-left: 250px; /* Adjust according to your sidebar width */
+      padding-top: 60px; /* Adjust according to your top navbar height */
+    }
+  </style>
+</head>
+<body>
+  <!-- Top navbar -->
+  <div class="topnav">
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <ul>
+      <li>Dashboard</li>
+      <li>Profile</li>
+      <li>Settings</li>
+    </ul>
+  </div>
+
+  <!-- Content area -->
+  <div class="content">
+    <!-- Your Vue.js components or router-view goes here -->
+    <h1>Welcome to Your Vue App!</h1>
+  </div>
+
+  <!-- Add your Vue.js scripts here -->
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Component A styles */
+.component-a {
+    /* Component A styles go here */
+  }
+  
+  /* Component B styles */
+  .component-b {
+    /* Component B styles go here */
+  }
+  
+  /* Component C styles */
+  .component-c {
+    /* Component C styles go here */
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #007bff;
+  }
+  
+  textarea {
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .output-container {
+    margin-top: 20px;
+  }
+  
+  .output-title {
+    color: #28a745;
+  }
+  
+  .error-title {
+    color: #dc3545;
+  }
+  
+  .output,
+  .error {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    white-space: pre-wrap;
+  }
+  
