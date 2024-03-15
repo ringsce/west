@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ar"
+			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -142,8 +142,8 @@
 					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++"
+			"type" : "STRING",
+			"value" : "/usr/bin/clang++"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -238,8 +238,8 @@
 					"value" : "C compiler"
 				}
 			],
-			"type" : "STRING",
-			"value" : "/usr/bin/clang"
+			"type" : "FILEPATH",
+			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -583,7 +583,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ld"
+			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -695,7 +695,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/nm"
+			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -739,7 +739,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/objdump"
+			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump"
 		},
 		{
 			"name" : "CMAKE_OSX_ARCHITECTURES",
@@ -775,7 +775,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+			"value" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -839,7 +839,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ranlib"
+			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -1075,7 +1075,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/strip"
+			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip"
 		},
 		{
 			"name" : "CMAKE_TAPI",
