@@ -1,7 +1,0 @@
-/Users/pedro/Projects/west/build/CMakeFiles/SwiftTarget.dir
-/Users/pedro/Projects/west/build/CMakeFiles/ringsce.dir
-/Users/pedro/Projects/west/build/CMakeFiles/edit_cache.dir
-/Users/pedro/Projects/west/build/CMakeFiles/rebuild_cache.dir
-/Users/pedro/Projects/west/build/ringsce-editor/CMakeFiles/editor.dir
-/Users/pedro/Projects/west/build/ringsce-editor/CMakeFiles/edit_cache.dir
-/Users/pedro/Projects/west/build/ringsce-editor/CMakeFiles/rebuild_cache.dir
