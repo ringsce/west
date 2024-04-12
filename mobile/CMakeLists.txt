@@ -25,9 +25,9 @@ if(ANDROID)
 
     # Add Android specific resources
     qt_add_android_apk(
-        MyQtApp_apk
-        NAME MyQtApp
-        PACKAGE_NAME com.example.myqtapp
+        mobile_apk
+        NAME mobile
+        PACKAGE_NAME com.kd.mobile
         ICON ${ANDROID_ICON}
     )
 
@@ -37,10 +37,10 @@ if(ANDROID)
     )
 
     # Create Android executable
-    add_library(MyQtApp SHARED ${ANDROID_SOURCES})
+    add_library(mobile SHARED ${ANDROID_SOURCES})
 
     # Link libraries
-    target_link_libraries(MyQtApp
+    target_link_libraries(mobile
         Qt6::AndroidExtras
     )
 endif()
@@ -78,6 +78,6 @@ if(IOS)
     set_target_properties(mobile PROPERTIES
         XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "iPhone Developer"
         XCODE_ATTRIBUTE_DEVELOPMENT_TEAM "YOUR_TEAM_ID"
-        XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER "com.example.MyQtApp"
+        XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER "com.kd.mobile"
     )
 endif()
